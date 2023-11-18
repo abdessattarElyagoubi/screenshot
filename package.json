@@ -1,21 +1,17 @@
 {
-  "name": "screenshot-app",
+  "name": "my-api",
   "version": "1.0.0",
-  "description": "An app to take screenshots of web pages",
-  "main": "server.js",
+  "description": "My Puppeteer-based API",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
-  "keywords": [
-    "screenshot",
-    "web page",
-    "puppeteer",
-    "express"
-  ],
-  "author": "Abdessattar Elyagoubi",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "puppeteer": "^5.4.1"
+    "puppeteer": "^10.2.0"
   }
 }
